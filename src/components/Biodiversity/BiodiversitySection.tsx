@@ -61,7 +61,7 @@ export default function BiodiversitySection() {
           navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 4500, disableOnInteraction: false }}
-          className="!pb-12"
+          className="pb-12!"
         >
           {animals.map((animal) => (
             <SwiperSlide key={animal.id}>
@@ -70,7 +70,7 @@ export default function BiodiversitySection() {
                 whileHover={{ y: -6 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="aspect-4/3 overflow-hidden">
                   <img
                     src={animal.image}
                     alt={animal.name}

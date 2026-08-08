@@ -90,7 +90,7 @@ export default function CultureSection() {
                 'url(https://commons.wikimedia.org/wiki/Special:FilePath/FAMADIHANA_MPMF24.jpg?width=1200)',
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+          <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/60 to-black/40" />
           <div className="relative p-8 md:p-14 max-w-2xl">
             <h3 className="font-display text-2xl md:text-4xl text-white mb-4">
               Famadihana

@@ -14,7 +14,6 @@ import {
   StepLabel,
   StepContent,
   Typography,
-  Box,
 } from '@mui/material'
 import {
   Calendar,
@@ -112,7 +111,7 @@ export default function ExperiencesSection() {
                   alt={it.title}
                   className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/50 to-black/20" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <div className="flex flex-wrap items-center gap-2 mb-3">
                     <span className="inline-flex items-center gap-1.5 px-2.5 py-1 text-xs rounded-full bg-accent text-accent-content font-semibold">
@@ -180,7 +179,7 @@ export default function ExperiencesSection() {
                 alt={selected.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
               <button
                 onClick={() => setSelected(null)}
                 className="absolute top-4 right-4 p-2 rounded-full bg-black/40 text-white hover:bg-black/60 transition"

@@ -9,7 +9,7 @@ import { useAppStore } from '@/store/useAppStore'
 
 export default function Layout() {
   const location = useLocation()
-  const { theme, setTheme } = useAppStore()
+  const { theme } = useAppStore()
 
   // Init theme on mount
   useEffect(() => {

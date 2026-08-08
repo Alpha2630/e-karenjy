@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { Menu, X, Sun, Moon, Globe } from 'lucide-react'
+import { Menu, X, Sun, Moon } from 'lucide-react'
 import { useAppStore, type Lang } from '@/store/useAppStore'
 import { Drawer, IconButton, Tooltip } from '@mui/material'
 
@@ -79,12 +79,12 @@ export default function Navbar() {
             </Tooltip>
 
             <Tooltip title={theme === 'madagascar-light' ? 'Mode sombre' : 'Mode clair'}>
-              <IconButton onClick={toggleTheme} size="small" className="!text-base-content">
+              <IconButton onClick={toggleTheme} size="small" className="text-base-content!">
                 {theme === 'madagascar-light' ? <Moon size={18} /> : <Sun size={18} />}
               </IconButton>
             </Tooltip>
 
-            <IconButton className="lg:!hidden !text-base-content" onClick={() => setOpen(true)}>
+            <IconButton className="lg:hidden! text-base-content!" onClick={() => setOpen(true)}>
               <Menu size={22} />
             </IconButton>
           </div>

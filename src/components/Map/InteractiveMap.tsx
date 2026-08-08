@@ -102,7 +102,7 @@ export default function InteractiveMap() {
         </motion.div>
 
         <motion.div
-          className="relative rounded-2xl overflow-hidden shadow-2xl border border-base-300 h-[420px] md:h-[560px]"
+          className="relative rounded-2xl overflow-hidden shadow-2xl border border-base-300 h-105 md:h-140"
           initial={{ opacity: 0, scale: 0.97 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -112,7 +112,7 @@ export default function InteractiveMap() {
               n'a pas volontairement cliqué sur la carte */}
           {!scrollZoomActive && (
             <div
-              className="absolute inset-0 z-[500] flex items-center justify-center bg-black/10 backdrop-blur-[1px] cursor-pointer"
+              className="absolute inset-0 z-500 flex items-center justify-center bg-black/10 backdrop-blur-[1px] cursor-pointer"
               onClick={() => setScrollZoomActive(true)}
             >
               <span className="flex items-center gap-2 px-4 py-2 rounded-full bg-black/70 text-white text-sm">
@@ -209,12 +209,12 @@ export default function InteractiveMap() {
                 alt={selected.name}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <DialogTitle className="!absolute bottom-0 left-0 right-0 !text-white !pb-3">
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent" />
+              <DialogTitle className="absolute! bottom-0 left-0 right-0 text-white! pb-3!">
                 {selected.name}
               </DialogTitle>
             </div>
-            <DialogContent className="!pt-4">
+            <DialogContent className="pt-4!">
               <p className="text-sm text-base-content/60 mb-2">
                 {selected.region} · {TYPE_LABELS[selected.type]}
               </p>
