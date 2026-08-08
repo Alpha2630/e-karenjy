@@ -98,7 +98,7 @@ export default function ExperiencesSection() {
               <motion.article
                 key={it.id}
                 layout
-                className="group relative rounded-2xl overflow-hidden h-[320px] md:h-[360px] shadow-lg cursor-pointer"
+                className="group relative rounded-2xl overflow-hidden h-80 md:h-90 shadow-lg cursor-pointer"
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, scale: 0.95 }}
