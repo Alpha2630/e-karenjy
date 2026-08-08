@@ -37,7 +37,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="font-display text-xl md:text-2xl font-semibold text-primary tracking-tight">
-            Madagascar
+            e-karenjy
           </Link>
 
           {/* Desktop nav */}
