@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { Music, Utensils, Users, Sparkles } from 'lucide-react'
+import { Music, Utensils, Users, Sparkles, Heart, PawPrint } from 'lucide-react'
 
 const topics = [
   {
@@ -12,6 +12,16 @@ const topics = [
     icon: Sparkles,
     title: 'Fady — les tabous',
     text: 'Les fady régissent la vie quotidienne et protègent les lieux sacrés. Les respecter est la première marque de respect envers les Malgaches.',
+  },
+  {
+    icon: Heart,
+    title: 'Razana — le culte des ancêtres',
+    text: 'Les ancêtres occupent une place centrale dans la spiritualité malgache : ils continuent de veiller sur les vivants et sont consultés lors des grandes décisions familiales.',
+  },
+  {
+    icon: PawPrint,
+    title: 'Le zébu, richesse et prestige',
+    text: 'Plus de 9 millions de zébus sur l\'île : symbole de statut social, monnaie d\'échange pour la dot, offrande rituelle et pilier de l\'agriculture malgache.',
   },
   {
     icon: Music,
@@ -77,7 +87,7 @@ export default function CultureSection() {
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage:
-                'url(https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=1200&q=80)',
+                'url(https://commons.wikimedia.org/wiki/Special:FilePath/FAMADIHANA_MPMF24.jpg?width=1200)',
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
@@ -86,9 +96,11 @@ export default function CultureSection() {
               Famadihana
             </h3>
             <p className="text-white/85 leading-relaxed">
-              La « retournement des morts » : une cérémonie unique au monde où les familles
+              Le « retournement des morts » : une cérémonie unique au monde où les familles
               sortent les restes de leurs ancêtres, les enveloppent de nouveaux lamba et dansent
               avec eux. Un moment de joie, de transmission et de lien entre les vivants et les morts.
+              Elle a lieu tous les 5 à 7 ans, exclusivement pendant la saison sèche (juin–septembre),
+              surtout chez les Merina et les Betsileo des Hauts Plateaux.
             </p>
           </div>
         </motion.div>
