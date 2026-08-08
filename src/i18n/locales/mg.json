@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Fandraisana",
+    "map": "Sarintany",
+    "biodiversity": "Biodiversité",
+    "culture": "Kolontsaina",
+    "experiences": "Traikefa",
+    "gallery": "Sary",
+    "practical": "Fampahalalana"
+  },
+  "hero": {
+    "title": "Tongasoa eto Madagasikara",
+    "subtitle": "Tongasoa eto amin'ny Nosy Lehibe — 160 tapitrisa taona nisian'ny fivoarana mitokana, 90 % amin'ny karazana endemic, ary ny fanahy tadiavin'ny tontolo."
+  ,
+    "cta": "Atombohy ny dia"
+  },
+  "loading": "Tongasoa eto Madagasikara",
+  "map": {
+    "title": "Ny sarintany ny dianao",
+    "subtitle": "Tsindrio ny faritra sy ny toerana mahaliana."
+  },
+  "biodiversity": {
+    "title": "Ny kôntinenta faha-8",
+    "subtitle": "Biodiversité tsy manam-paharoa eto an-tany."
+  },
+  "culture": {
+    "title": "Kolontsaina & Vahoaka",
+    "subtitle": "18 foko, vahoaka iray, tany fady, mozika ary fombafomba."
+  },
+  "experiences": {
+    "title": "Traikefa & Lalana",
+    "subtitle": "Circuits natao mba hahatsapa ny Nosy."
+  },
+  "gallery": {
+    "title": "Sary immersive"
+  },
+  "practical": {
+    "title": "Fampahalalana praktika",
+    "subtitle": "Izay rehetra ilainao ho an'ny dianao 2026."
+  },
+  "footer": {
+    "quote": "Ny tany malalaka no tany tsara.",
+    "newsletter": "Mahazoa tantara avy any Madagasikara",
+    "rights": "© 2026 Madagascar Voyage Immersif."
+  }
+}

@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: madagascar-light --default, madagascar-dark --prefersdark;
+}
+
+@plugin "daisyui/theme" {
+  name: "madagascar-light";
+  default: true;
+  color-scheme: light;
+  --color-primary: #0d5c4b;
+  --color-primary-content: #f5f0e6;
+  --color-secondary: #c45c26;
+  --color-secondary-content: #fff;
+  --color-accent: #d4a017;
+  --color-accent-content: #1a1a1a;
+  --color-neutral: #2c2c2c;
+  --color-neutral-content: #f5f0e6;
+  --color-base-100: #faf7f2;
+  --color-base-200: #f0ebe3;
+  --color-base-300: #e5dfd4;
+  --color-base-content: #1a1a1a;
+  --color-info: #1e6f8a;
+  --color-success: #2d6a4f;
+  --color-warning: #d4a017;
+  --color-error: #9b2226;
+}
+
+@plugin "daisyui/theme" {
+  name: "madagascar-dark";
+  prefersdark: true;
+  color-scheme: dark;
+  --color-primary: #1a8a6e;
+  --color-primary-content: #0a1f1a;
+  --color-secondary: #e07a3d;
+  --color-secondary-content: #1a1a1a;
+  --color-accent: #e8b923;
+  --color-accent-content: #1a1a1a;
+  --color-neutral: #e5dfd4;
+  --color-neutral-content: #1a1a1a;
+  --color-base-100: #0f1a17;
+  --color-base-200: #152520;
+  --color-base-300: #1e332c;
+  --color-base-content: #f5f0e6;
+  --color-info: #3a9bb5;
+  --color-success: #40916c;
+  --color-warning: #e8b923;
+  --color-error: #c1121f;
+}
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --color-emerald-deep: #0d5c4b;
+  --color-terracotta: #c45c26;
+  --color-baobab-gold: #d4a017;
+  --color-ocean: #1e6f8a;
+  --color-cream: #faf7f2;
+}
+
+html {
+  scroll-behavior: auto; /* Lenis handles smooth scroll */
+}
+
+body {
+  font-family: var(--font-body);
+  @apply bg-base-100 text-base-content antialiased;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  font-family: var(--font-body);
+  z-index: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-base-200;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/60 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
+
+/* Selection */
+::selection {
+  @apply bg-primary/30 text-base-content;
+}

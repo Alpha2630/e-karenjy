@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "map": "Carte",
+    "biodiversity": "Biodiversité",
+    "culture": "Cultures",
+    "experiences": "Expériences",
+    "gallery": "Galeries",
+    "practical": "Pratique"
+  },
+  "hero": {
+    "title": "Tongasoa eto Madagasikara",
+    "subtitle": "Bienvenue sur la Grande Île — 160 millions d'années d'évolution isolée, 90 % d'espèces endémiques, et une âme que le monde entier vient chercher.",
+    "cta": "Commencer le voyage"
+  },
+  "loading": "Tongasoa eto Madagasikara",
+  "map": {
+    "title": "La carte de votre voyage",
+    "subtitle": "Cliquez sur les régions et points d'intérêt pour découvrir chaque étape."
+  },
+  "biodiversity": {
+    "title": "L'8e continent",
+    "subtitle": "Une biodiversité unique au monde, née d'un isolement exceptionnel."
+  },
+  "culture": {
+    "title": "Cultures & Peuples",
+    "subtitle": "Dix-huit ethnies, un peuple, une terre de fady, de musique et de cérémonies ancestrales."
+  },
+  "experiences": {
+    "title": "Expériences & Itinéraires",
+    "subtitle": "Des circuits pensés pour ressentir l'île, pas seulement la visiter."
+  },
+  "gallery": {
+    "title": "Galeries immersives"
+  },
+  "practical": {
+    "title": "Informations pratiques",
+    "subtitle": "Tout ce qu'il faut savoir pour préparer votre voyage en 2026."
+  },
+  "footer": {
+    "quote": "Ny tany malalaka no tany tsara — La terre large est une bonne terre.",
+    "newsletter": "Recevoir des histoires de Madagascar",
+    "rights": "© 2026 Madagascar Voyage Immersif. Tous droits réservés."
+  }
+}

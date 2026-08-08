@@ -1,0 +1,45 @@
+{
+  "nav": {
+    "home": "Home",
+    "map": "Map",
+    "biodiversity": "Biodiversity",
+    "culture": "Cultures",
+    "experiences": "Experiences",
+    "gallery": "Galleries",
+    "practical": "Practical"
+  },
+  "hero": {
+    "title": "Tongasoa eto Madagasikara",
+    "subtitle": "Welcome to the Great Island — 160 million years of isolated evolution, 90 % endemic species, and a soul the whole world comes seeking.",
+    "cta": "Start the journey"
+  },
+  "loading": "Tongasoa eto Madagasikara",
+  "map": {
+    "title": "The map of your journey",
+    "subtitle": "Click on regions and points of interest to discover each stage."
+  },
+  "biodiversity": {
+    "title": "The 8th Continent",
+    "subtitle": "A biodiversity unique in the world, born from exceptional isolation."
+  },
+  "culture": {
+    "title": "Cultures & Peoples",
+    "subtitle": "Eighteen ethnic groups, one people, a land of fady, music and ancestral ceremonies."
+  },
+  "experiences": {
+    "title": "Experiences & Itineraries",
+    "subtitle": "Circuits designed to feel the island, not just visit it."
+  },
+  "gallery": {
+    "title": "Immersive Galleries"
+  },
+  "practical": {
+    "title": "Practical Information",
+    "subtitle": "Everything you need to know to prepare your 2026 trip."
+  },
+  "footer": {
+    "quote": "Ny tany malalaka no tany tsara — The wide land is a good land.",
+    "newsletter": "Receive stories from Madagascar",
+    "rights": "© 2026 Madagascar Immersive Journey. All rights reserved."
+  }
+}
