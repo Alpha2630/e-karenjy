@@ -35,8 +35,7 @@ export const itineraries: Itinerary[] = [
     description:
       'Un circuit compact idéal pour une première rencontre avec Madagascar : Antananarivo, le chant des Indri à Andasibe et l’immersion en forêt tropicale humide.',
     highlights: ['Indri indri', 'Rova d’Antananarivo', 'Parc Andasibe-Mantadia', 'Réserve Analamazaotra'],
-    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=900&q=80',
-    difficulty: 'facile',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Indri_(Indri_indri).jpg?width=900',    difficulty: 'facile',
     bestSeason: 'Avril – Novembre',
     budgetHint: 'Moyen (hébergements mid-range + guides)',
     daysPlan: [
@@ -140,8 +139,7 @@ export const itineraries: Itinerary[] = [
       'Kirindy (fossa)',
       'Belo-sur-Tsiribihina',
     ],
-    image: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900&q=80',
-    difficulty: 'soutenu',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Walking_the_Avenue_of_the_Baobabs.jpg?width=900',    difficulty: 'soutenu',
     bestSeason: 'Mai – Octobre (pistes praticables)',
     budgetHint: 'Moyen à élevé (4x4 + guides Tsingy)',
     daysPlan: [
@@ -296,8 +294,7 @@ export const itineraries: Itinerary[] = [
       'Avenue des Baobabs',
       'Île Sainte-Marie (baleines en saison)',
     ],
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80',
-    difficulty: 'soutenu',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Le_pain_de_sucre_dans_la_baie_de_Diego_Suarez,_Madagascar.JPG?width=900',    difficulty: 'soutenu',
     bestSeason: 'Mai – Octobre (ou juillet-septembre pour les baleines)',
     budgetHint: 'Élevé (vols intérieurs + 4x4 + lodges)',
     daysPlan: [
@@ -502,8 +499,7 @@ export const itineraries: Itinerary[] = [
     description:
       'Une semaine 100 % mer et détente dans l’archipel de Nosy Be : plages de sable fin, lémuriens de Nosy Komba, récifs de Tanikely et parfums d’ylang-ylang.',
     highlights: ['Nosy Be', 'Nosy Komba', 'Nosy Tanikely', 'Nosy Iranja', 'Plongée / snorkeling'],
-    image: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=900&q=80',
-    difficulty: 'facile',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nosy_Be_beach_(3186856441).jpg?width=900',    difficulty: 'facile',
     bestSeason: 'Avril – Décembre (éviter cyclones janv.–mars)',
     budgetHint: 'Moyen à élevé selon standing des hôtels',
     daysPlan: [
@@ -588,8 +584,7 @@ export const itineraries: Itinerary[] = [
     description:
       'Le voyage mythique le long de la RN7 : des Hauts Plateaux au massif de l’Isalo, en passant par les forêts de Ranomafana et les paysages du grand Sud.',
     highlights: ['RN7', 'Ranomafana UNESCO', 'Isalo', 'Ambalavao', 'Antsirabe', 'Anja Reserve'],
-    image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=900&q=80',
-    difficulty: 'modéré',
+    image: 'https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_National_Park_01.jpg?width=900',    difficulty: 'modéré',
     bestSeason: 'Avril – Novembre',
     budgetHint: 'Moyen',
     daysPlan: [

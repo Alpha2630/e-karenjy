@@ -4,14 +4,16 @@ import { useTranslation } from 'react-i18next'
 import { X } from 'lucide-react'
 
 const images = [
-  { src: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900&q=80', cat: 'paysages', alt: 'Avenue des Baobabs' },
-  { src: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=900&q=80', cat: 'animaux', alt: 'Indri' },
-  { src: 'https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=900&q=80', cat: 'plages', alt: 'Nosy Be' },
-  { src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=900&q=80', cat: 'paysages', alt: 'Tsingy' },
-  { src: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=900&q=80', cat: 'paysages', alt: 'Isalo' },
-  { src: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=900&q=80', cat: 'plages', alt: 'Sainte-Marie' },
-  { src: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=900&q=80', cat: 'paysages', alt: 'Ranomafana' },
-  { src: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=900&q=80', cat: 'paysages', alt: 'Forêt Masoala' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Walking_the_Avenue_of_the_Baobabs.jpg?width=900', cat: 'paysages', alt: 'Avenue des Baobabs' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Indri_(Indri_indri).jpg?width=900', cat: 'animaux', alt: 'Indri' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Nosy_Be_beach_(3186856441).jpg?width=900', cat: 'plages', alt: 'Nosy Be' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Big_Tsingy,_Madagascar_(23822944469).jpg?width=900', cat: 'paysages', alt: 'Tsingy' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Isalo_National_Park_01.jpg?width=900', cat: 'paysages', alt: 'Isalo' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Humpback_whale_Sainte_Marie_Madagascar_July_2013.JPG?width=900', cat: 'plages', alt: 'Sainte-Marie' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Namorona_River_in_Ranomafana_National_Park_2013_1.jpg?width=900', cat: 'paysages', alt: 'Ranomafana' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lowland_rainforest,_Masoala_National_Park,_Madagascar.jpg?width=900', cat: 'paysages', alt: 'Forêt Masoala' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ring-tailed_lemur_(Lemur_catta).jpg?width=900', cat: 'animaux', alt: 'Lémur catta' },
+  { src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Panther_chameleon_(Furcifer_pardalis)_male_Nosy_Be.jpg?width=900', cat: 'animaux', alt: 'Caméléon panthère' },
 ]
 
 export default function GallerySection() {
